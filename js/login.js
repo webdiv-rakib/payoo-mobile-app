@@ -30,6 +30,7 @@ document.getElementById("login-btn")
 
         if (phoneNumber === '01794181719' && pinNumber === '12345') {
             console.log("You are Logged In");
+            window.location.href = '/home.html';
         }
         else {
             alert("Wrong Phone Number or Pin");
