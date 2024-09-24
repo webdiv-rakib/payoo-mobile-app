@@ -58,6 +58,28 @@
                                 <button class="btn btn-lg">Large</button>
                                 <button class="btn btn-lg">Large</button>
                             </div>
+                            <div class="divider"></div>
+                            <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                                <form class="card-body">
+                                    <div class="form-control">
+                                        <label class="label">
+                                            <span class="label-text">Amount</span>
+                                        </label>
+                                        <input id="add-amount" type="number" placeholder="Amount" class="input input-bordered"
+                                            required />
+                                    </div>
+                                    <div class="form-control">
+                                        <label class="label">
+                                            <span class="label-text">Pin</span>
+                                        </label>
+                                        <input id="pin-number" type="password" placeholder="password" class="input input-bordered"
+                                            required autocomplete="off" />
+                                    </div>
+                                    <div class="form-control mt-6">
+                                        <button class="btn btn-primary">Add Money</button>
+                                    </div>
+                                </form>
+                            </div>
                         </section>
                     </div>
                 </div>
@@ -68,6 +90,7 @@
     <footer>
 
     </footer>
+    <script src="js/user-action-button.js"></script>
 </body>
 
 </html>
